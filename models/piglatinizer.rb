@@ -10,7 +10,7 @@ class PigLatinizer
   word = str.scan(/\w/)
   if  #first rule
     str =~ str2
-    str + "ay"
+    str + "way"
   elsif # second rule
     str != str2
     s = str.slice!(/^./)
