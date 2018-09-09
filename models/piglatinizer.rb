@@ -25,4 +25,5 @@ class PigLatinizer
       piglatin_word << "ay"
     end
     piglatin_word
+  end
 end
