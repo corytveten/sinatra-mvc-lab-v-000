@@ -3,7 +3,7 @@ class PigLatinizer
 
   def piglatinize str
     alpha = ('a'..'z').to_a
-    vowels = [a e i o u]
+    vowels = %w[a e i o u]
     consonants = alpha - vowels
 
     if vowels.include?(str[0])
