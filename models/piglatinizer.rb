@@ -4,7 +4,7 @@ class PigLatinizer
   def piglatinize (text)
     words = text.split(" ")
     piglatin_words = []
-    words.each{|word| piglatin_words << piglatinze_word(word)}
+    words.each{|word| piglatin_words << piglatinize_word(word)}
     piglatin_words.join(" ")
   end
 
